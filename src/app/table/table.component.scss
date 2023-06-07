@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    thead{
+        
+            th{
+                padding: 10px;
+                text-align: center;
+               border: #ddd solid 1px;
+                &:last-child{
+                    border-right: none;
+                }
+            }
+        
+    }
+    tbody{
+        tr{
+            td{
+                padding: 10px;
+                text-align: center;
+                border-bottom: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+                &:last-child{
+                    border-right: none;
+                }
+            }
+        }
+    }
+}
